@@ -3,51 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plant Shop</title>
+  <title>FloraHub</title>
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>FloraHub</h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Cart</a></li>
-        <li><a href="#">Wishlist</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="hero">
-      <h2>Welcome to the FloraHub</h2>
-      <p>Discover a variety of plants for your home and garden.</p>
-      <button>Shop Now</button>
-    </section>
-
-    <section id="featured-products">
-      <h2>Featured Plants</h2>
-      <div class="product-grid">
-        <div class="product-card">
-          <img src="plant1.jpg" alt="Plant 1">
-          <h3>Fiddle Leaf Fig</h3>
-          <p>$30</p>
-          <button>Add to Cart</button>
-        </div>
-        <div class="product-card">
-          <img src="plant2.jpg" alt="Plant 2">
-          <h3>Snake Plant</h3>
-          <p>$25</p>
-          <button>Add to Cart</button>
-        </div>
-        <!-- Add more products -->
-      </div>
-    </section>
-  </main>
   
-  <footer>
-    <p>&copy; 2024 Plant Shop. All rights reserved.</p>
-  </footer>
+    <div id="desc">
+      <div id="content-txt">
+        <h1><img src=".png" height="40px" width="40px">  FloraHub</h1>
+        <p>Discover a variety of plants for your home and garden along with the accessories needed.</p>
+      </div>
+      <div id="content-inside">
+        <img src=".png" height="20px" width="20px">
+        <button class="btn2" onclick="window.location.href='signup.html';">Sign Up</button>
+        <button class="btn2" onclick="window.location.href='login.html';">Log in</button>
+      </div>
+    </div>
+
+  <div id="menu">
+      <button class="btn1">Home</button>
+      <button class="btn1">Products</button>
+      <button class="btn1">Cart</button>
+      <button class="btn1">Wishlist</button>
+  </div>
+  
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="plant1.jpg" alt="Plant 1">
+        <h4 class="plant-title">Fiddle Leaf Fig <br>Price: ₹30/-</h4>
+        <button class="btn3">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="plant2.jpg" alt="Plant 2">
+        <h4 class="plant-title">Snake Plant <br>Price: ₹25/-</h4>
+        <button class="btn3">Add to Cart</button>
+      </div>
+      <!-- Add more products -->
+    </div>
+
+  <script src="scripts/scripts.js"></script>
 </body>
 </html>

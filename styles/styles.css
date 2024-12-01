@@ -1,52 +1,77 @@
 body {
-      font-family: Arial, sans-serif;
-        margin: 0;
-          padding: 0;
-            box-sizing: border-box;
-            }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
 
-            header {
-              background-color: #4CAF50;
-                color: white;
-                  padding: 1rem 2rem;
-                    display: flex;
-                      justify-content: space-between;
-                        align-items: center;
-                        }
+#menu {
+  padding: 3px;
+  padding-right: 1rem;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 2px solid black;
+}
 
-                        header nav ul {
-                          list-style: none;
-                            display: flex;
-                              gap: 1rem;
-                              }
+#content-inside{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 4px;
+}
 
-                              header nav ul li a {
-                                color: white;
-                                  text-decoration: none;
-                                  }
+.btn1{
+  border-radius: 20px;
+  border: 1px solid #1f0f10f;
+  background-color: white;
+  font-weight: 900;
+  margin: 2px;
+}
 
-                                  #hero {
-                                    text-align: center;
-                                      padding: 2rem;
-                                        background: #f4f4f4;
-                                        }
+#content-txt{
+  display: flex;
+  flex: 4;
+  flex-direction: column;
+}
 
-                                        .product-grid {
-                                          display: grid;
-                                            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-                                              gap: 1rem;
-                                                padding: 1rem;
-                                                }
+.btn2{
+  border: 0px;
+  background-color: #4CA;
+  font-weight: 900;
+}
 
-                                                .product-card {
-                                                  border: 1px solid #ddd;
-                                                    padding: 1rem;
-                                                      text-align: center;
-                                                      }
+#desc {
+  display: flex;
+  flex-direction: column;
+  background-color: #4CA;
+  padding: 2rem;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
 
-                                                      footer {
-                                                        background-color: #333;
-                                                          color: white;
-                                                            text-align: center;
-                                                              padding: 1rem;
-                                                              }
+.product-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.product-card {
+  border: 2px solid #ddd;
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.plant-title{
+  margin: 10px;
+}
+
+.btn3{
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
