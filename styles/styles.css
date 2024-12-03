@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: flex-end;
   border-bottom: 2px solid black;
+  z-index: 1000;
 }
 
 #content-inside{
@@ -22,7 +23,7 @@ body {
 
 .btn1{
   border-radius: 20px;
-  border: 1px solid #1f0f10;
+  border: 1px solid;
   background-color: white;
   font-weight: 900;
   margin: 2px;
